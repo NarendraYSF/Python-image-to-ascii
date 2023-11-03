@@ -16,10 +16,17 @@ Using python to generate a set of ascii conveying an image with depth, shadow et
 
   Open CMD
   Use command:
-  ```python3 PythonASCII.py``` path_to_image
-  Example:
-  python3 image_to_ascii.py /home/Downloads/image.png
+  
+  ```python3 PythonASCII.py``` 
+  
+  After succsesfully opened the python file provide the program with directory of your image file
 
+  Example:
+  ``` 
+  python3 image_to_ascii.py
+
+  Enter the path to the image field : Image.jpg
+  ``` 
 3. Result
 
 The result will be a txt file, the generated file will be placed in the same folder as the image that is converted
