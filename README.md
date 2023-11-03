@@ -16,7 +16,7 @@ Using python to generate a set of ascii conveying an image with depth, shadow et
 
   Open CMD
   Use command:
-  python3 script_name path_to_image
+  '''python3 PythonASCII.py''' path_to_image
   Example:
   python3 image_to_ascii.py /home/Downloads/image.png
 
