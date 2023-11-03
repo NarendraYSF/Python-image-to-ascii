@@ -23,7 +23,7 @@ Using python to generate a set of ascii conveying an image with depth, shadow et
 
   Example:
   ``` 
-  python3 image_to_ascii.py
+  python3 PythonASCII.py
 
   Enter the path to the image field : Image.jpg
   ``` 
