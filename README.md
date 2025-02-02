@@ -31,7 +31,8 @@ Using python to generate a set of ascii conveying an image with depth, shadow et
 
 The result will be a txt file, the generated file will be placed in the same folder as the image that is converted
 
-                              ..::--==============---:..                                
+```txt
+                                ..::--==============---:..                                
                            .:-=++++++++++++++++++++++++++++=-.                            
                          .=+++++++++++++++++++++++++++++++++++=:                          
                         -+++++=-::-=++++++++++++++++++++++++++++=.                        
@@ -75,4 +76,4 @@ The result will be a txt file, the generated file will be placed in the same fol
                          .:::::::----------------------:...:----:                         
                            .:-:::-----------------------------:                           
                               ..::------------------------:.                              
-                                   ....:::::::::::::...                
+                                   ....:::::::::::::...                                   
