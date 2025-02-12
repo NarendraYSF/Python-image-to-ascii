@@ -9,7 +9,7 @@ Using python to generate a set of ascii conveying an image with depth, shadow et
 
    Clone the repository to your local machine:
 
-   git clone https://github.com/yourusername/image-to-ascii.git
+   git clone https://github.com/NarendraYSF/Python-image-to-ascii.git
    cd image-to-ascii
 
 2. Usage
