@@ -1,79 +1,73 @@
-# Python-image-to-ascii
-Using python to generate a set of ascii conveying an image with depth, shadow etc. output of the code will be an .txt file and will be put on the same folder as the image.
-
 # Image to ASCII Converter
 
-1. **Installation**:
+Convert any image into ASCII art with depth and shading. This Python script generates a text file containing ASCII characters that represent your image, preserving visual details like shadows and depth.
 
-  Download Python (recomended 3.9.10)
+## Features
 
-   Clone the repository to your local machine:
+- Converts images to ASCII art while preserving depth and shadows
+- Supports common image formats (JPG, PNG, etc.)
+- Generates output as a text file in the same directory as the input image
+- Simple command-line interface
 
+## Prerequisites
+
+- Python 3.9.10 or later
+- PIL (Python Imaging Library)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
    git clone https://github.com/NarendraYSF/Python-image-to-ascii.git
-   cd image-to-ascii
+   cd Python-image-to-ascii
+   ```
 
-2. Usage
+2. Install required dependencies:
+   ```bash
+   pip install Pillow
+   ```
 
-  Open CMD
-  Use command:
-  
-  ```python3 PythonASCII.py``` 
-  
-  After succsesfully opened the python file provide the program with directory of your image file
+## Usage
 
-  Example:
-  ``` 
-  python3 PythonASCII.py
+1. Open your terminal or command prompt
 
-  Enter the path to the image field : Image.jpg
-  ``` 
-3. Result
+2. Navigate to the project directory:
+   ```bash
+   cd path/to/Python-image-to-ascii
+   ```
 
-The result will be a txt file, the generated file will be placed in the same folder as the image that is converted
+3. Run the script:
+   ```bash
+   python3 PythonASCII.py
+   ```
 
-```txt
-                                ..::--==============---:..                                
-                           .:-=++++++++++++++++++++++++++++=-.                            
-                         .=+++++++++++++++++++++++++++++++++++=:                          
-                        -+++++=-::-=++++++++++++++++++++++++++++=.                        
-                       .+++++:      -+++++++++++++++++++++++++++++.                       
-                       :++++=        +++++++++++++++++++++++++++++=                       
-                       -+++++:      -+++++++++++++++++++++++++++++=                       
-                       -+++++++-::-+++++++++++++++++++++++++++++++=                       
-                       -++++++++++++++++++++++++++++++++++++++++++=                       
-                       -++++++++++++++++++++++++++++++++++++++++++=                       
-                        .....................+++++++++++++++++++++=                       
-            .................................+++++++++++++++++++++=   .........           
-        :-=+++++++++++++++++++++++++++++++++++++++++++++++++++++++=  .------------:.      
-     .-=++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=  .---------------.    
-    -===++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=  .----------------.   
-   -====++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=  .-----------------.  
-  -=====++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=  .------------------  
- .======++++++++++++++++++++++++++++++++++++++++++++++++++++++++++:  :------------------: 
- -======+++++++++++++++++++++++++++++++++++++++++++++++++++++++++=  .-------------------- 
- +======++++++++++++++++++++++++++++++++++++++++++++++++++++++++-   ---------------------.
-:=======++++++++++++++++++++++++++++++++++++++++++++++++++++++-.  .----------------------:
--=======++++++++++++++++++++++++==========================-:.   .:-----------------------:
--=======++++++++++++++++++=-:.                               .:--------------------------:
--=======++++++++++++++++=:    ..::::::::::::::::::::::::::-------------------------------:
-:=======++++++++++++++=:   .:::::--------------------------------------------------------:
- +======++++++++++++++.  .:::::::--------------------------------------------------------.
- -======+++++++++++++:  .::::::::-------------------------------------------------------- 
- .======++++++++++++=   :::::::::-------------------------------------------------------: 
-  -=====++++++++++++=  .:::::::::-------------------------------------------------------  
-   =====++++++++++++=  .:::::::::------------------------------------------------------   
-    ====++++++++++++=  .:::::::::-----------------------------------------------------    
-     -==++++++++++++=  .:::::::::----------------------------------------------------     
-       :==++++++++++=  .:::::::::-------------------------------------------------:.      
-           ..........  .:::::::::-----------:    ..............................           
-                       .:::::::::-----------:                                             
-                       .:::::::::---------------------------------:                       
-                       .:::::::::---------------------------------:                       
-                       .:::::::::----------------------:...:------:                       
-                       .:::::::::--------------------:      .-----:                       
-                       .:::::::::--------------------.       :----:                       
-                        :::::::::--------------------:      .-----                        
-                         .:::::::----------------------:...:----:                         
-                           .:-:::-----------------------------:                           
-                              ..::------------------------:.                              
-                                   ....:::::::::::::...                                   
+4. When prompted, enter the path to your image:
+   ```bash
+   Enter the path to the image file: Image.jpg
+   ```
+
+## Output
+
+The script will generate a text file containing the ASCII art in the same directory as your input image. The output filename will be based on your input image name with a `.txt` extension.
+
+## Example
+
+Input image: `python.jpg`
+![Alt text](![image](https://github.com/user-attachments/assets/d451bd6a-9e4d-40e0-9e7e-6eddb5d1d130))
+Output file: `python.txt`
+
+## Contributing
+
+Feel free to open issues or submit pull requests for any improvements or bug fixes.
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Author
+
+NarendraYSF
+
+## Acknowledgments
+
+Special thanks to the Python Imaging Library (PIL) team for providing the image processing capabilities that make this project possible.
