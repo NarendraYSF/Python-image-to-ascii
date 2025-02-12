@@ -53,7 +53,9 @@ The script will generate a text file containing the ASCII art in the same direct
 ## Example
 
 Input image: `python.jpg`
-![Alt text](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/python/logo.png))
+![Alt text](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/python/logo.png)
+
+
 Output file: `python.txt`
 
 ```.txt
